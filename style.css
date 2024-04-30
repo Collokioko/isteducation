@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+.about{
+    color: red;
+}
+.btn{
+    color: red;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.header-text{
+    color: red;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 10px;
+}
+.card{
+    width: 325px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-sizing: opx 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin: 4px;
+}
+.card img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.card-content{
+    padding: 20px;
+}
+.card-content h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.card-content p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.header {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-left: 60px;
+  }
+  .backbtn1{
+    padding-left: 1000px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .nxtbtn1{
+    height: 50px;
+    cursor: pointer;
+  }
+  .card-container .card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    filter: grayscale(0)
+  }
+  .backbtn2{
+    padding-left: 1154px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .nxtbtn2{
+    height: 50px;
+    cursor: pointer;
+  }
+  .applylink{
+    color: black;
+  }
+  .card {
+    margin: 10px;
+    flex: 1 0 20%;
+  }
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  carousel-item img {
+    height: 200px;
+    width: 700px;
+    object-fit: cover;
+  }
+  .card {
+    margin: 10px;
+    flex: 1 0 20%;
+  }
+  .backbtn3{
+    padding-left: 1061px;
+    height: 50px;
+    cursor: pointer;
+  }
+  .nxtbtn3{
+    height: 50px;
+    cursor: pointer;
+  }
+  .applylink:hover {
+    text-decoration: none;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+  }
+  footer img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+  }
+  footer .column-header {
+    color: red;
+  }
+  .footer-header li a{
+    list-style: none;
+  }
+  .d-flex .card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    filter: grayscale(0)
+  }
